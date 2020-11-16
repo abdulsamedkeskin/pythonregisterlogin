@@ -2,10 +2,10 @@ import mysql.connector
 import random
 try:
 	database = mysql.connector.connect(
-		host="remotemysql.com",
-	  	user="4qYqvMgCab",
-	  	password="1NtT5Pl65o",
-	  	database="4qYqvMgCab"
+		host="host",
+	  	user="user",
+	  	password="password",
+	  	database="database"
 	)
 	cursor = database.cursor()
 	def main():
